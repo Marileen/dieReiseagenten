@@ -1,0 +1,341 @@
+
+@accordion-content-height-mobile : 5000px;
+
+
+div[data-component="tabbedAccordion"] {
+
+  z-index: 20;
+  position: relative;
+
+  .tab-container {
+    background: #ffffff;
+
+  }
+
+  ul.tabs {
+    margin-bottom: 0;
+
+    li {
+      font-size:13px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+
+      float: left;
+      margin: 0;
+      cursor: pointer;
+      padding: 0 21px;
+      height: 51px;
+      line-height: 51px;
+      list-style: none;
+
+      background: transparent;
+
+      color: #666666;
+      overflow: hidden;
+      position: relative;
+      cursor: pointer;
+
+    }
+  }
+
+  ul.tabs li:hover {
+    background: #ffffff;
+    color: #666666;
+  }
+
+  ul.tabs li.active {
+    background: #ffffff;
+    color: #666666;
+    //border-bottom: 1px solid #ffffff;
+    display: block;
+    cursor: default;
+  }
+
+  li, .accordion-heading {
+
+    label {
+      cursor: pointer;
+
+      //input {
+      //  display: none;
+      //}
+    }
+
+  }
+  .tab-content {
+
+    display: block;
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
+
+    .transition(e('opacity 0.5s linear, height 0.5s linear'));
+
+    &.active {
+      opacity: 1;
+      height: auto;
+    }
+
+    .info-title {
+      font-size: 14px;
+      line-height: 20px;
+      color: #000000;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+
+      span {
+        display: block;
+        color: #333333;
+        padding: 10px 0;
+        text-transform: none;
+        letter-spacing: 0.3px;
+      }
+
+    }
+
+    .text {
+      font-size: 16px;
+      line-height: 21px;
+      color: #666666;
+    }
+
+    .description {
+      font-size: 18px;
+      line-height: 28px;
+    }
+
+    .inverted {
+      display: inline-block;
+      margin: 15px 0;
+      font-size: 14px;
+
+      line-height: 1.57;
+      letter-spacing: 1px;
+      margin-top: 0;
+
+    }
+
+  }
+
+  .accordion-heading {
+    display: none;
+
+    font-size: 16px;
+    color: #666666;
+    text-transform: uppercase;
+
+    padding: 15px 10px 10px 0;
+    cursor: pointer;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    overflow: hidden;
+
+    i {
+      float: right;
+      font-style: normal;
+
+      &:before {
+        content: '\e903';
+      }
+    }
+
+  }
+
+  /*
+  *
+  *
+  *  accordion only - no tabs
+  *
+  */
+  &.no-tabs {
+
+    .tab-container {
+      padding: 0;
+    }
+
+    div[class^="col-"] > label {
+      width: 100%;
+    }
+
+    .tab-content, .tab-content.active {
+      opacity: 1;
+      height: auto;
+      background-image: linear-gradient(to top, rgba(249, 249, 249, 0.5), #f2f2f2);
+
+      > div {
+        border: none;
+        margin-bottom: 0;
+        padding-bottom: 0;
+      }
+    }
+
+    .accordion-heading {
+
+      display: block;
+
+      > div {
+        padding-left: 0;
+      }
+
+      + div {
+        max-height: 0;
+        .transition(max-height 0.6s ease-in-out);
+        border: none;
+      }
+
+      &.active {
+
+        i {
+          &:before {
+            content: '\e904';
+          }
+        }
+
+        + div {
+          max-height: 2000px;
+          transition-delay: 0.6s;
+        }
+      }
+
+    }
+  }
+
+  /*
+   *
+   *
+   *  small screens
+   *
+  */
+  @media (max-width: @screen-md) {
+    .tabs {
+      display: none;
+    }
+
+    .tab-container {
+      padding: 0;
+
+    }
+
+    .tab-content, .tab-content.active {
+      opacity: 1;
+      height: auto;
+
+      > div {
+        border: none;
+      }
+    }
+
+    .accordion-heading {
+
+      display: block;
+
+      + div {
+        max-height: 0;
+        .transition(max-height 0.3s linear);
+        border: none;
+      }
+
+      &.active {
+
+        i {
+          &:before {
+            content: '\e904';
+          }
+        }
+
+        + div {
+          max-height: @accordion-content-height-mobile;
+        }
+      }
+
+    }
+
+  }
+
+}
+
+/*
+ *
+ *
+ *  when sidebar basket is visible
+ *
+*/
+
+[data-size="bb-xs"] {
+
+  div[data-id="tabbed-accordion"] {
+    .tabs {
+      display: none;
+    }
+
+    .tab-container {
+      padding: 0;
+    }
+
+    .tab-content, .tab-content.active {
+      opacity: 1;
+      height: auto;
+
+      > div {
+        border: none;
+
+        //bootstrap cols aushängen ...
+        width: 100%;
+        left: 0;
+      }
+    }
+
+    .accordion-heading {
+
+      font-size: 16px;
+
+      color: #666666;
+      text-transform: uppercase;
+
+      padding: 15px 10px 10px 0;
+      display: block;
+      cursor: pointer;
+      -webkit-touch-callout: none;
+      -webkit-user-select: none;
+      -khtml-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      overflow: hidden;
+
+      + div {
+        max-height: 0;
+        .transition(max-height 0.3s linear);
+        border: none;
+      }
+
+      i {
+        float: right;
+        font-style: normal;
+
+        &:before {
+          content: '\e903';
+        }
+      }
+
+      &.active {
+
+        i {
+          &:before {
+            content: '\e904';
+          }
+        }
+
+        + div {
+          max-height: @accordion-content-height-mobile;
+        }
+      }
+    }
+  }
+
+
+}

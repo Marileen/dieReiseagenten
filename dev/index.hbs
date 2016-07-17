@@ -1,16 +1,313 @@
 
 {{> "page-head"}}
 
-<main  class="container-fluid">
-
-    <div class="row">
-        <div class="col-xs-12">
-
-           xyz
-
+<header>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-sm-4">
+                <!-- Logo and site link -->
+                <div class="logo" data-module="logo">
+                    <a href="index.html"><img src="{{page.basePath}}assets/logo.png"/></a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-4 col-sm-offset-4 col-md-offset-4">
+                <div class="list">
+                    <!-- Add your phone number here -->
+                    <div class="phone">
+                        <i class="fa fa-phone"></i> Phone: 123-456-7890
+                    </div>
+                    <hr />
+                    <!-- Add your email id here -->
+                    <div class="email">
+                        <i class="fa fa-envelope-o"></i> Email: someting@gmail.com
+                    </div>
+                    <hr />
+                    <!-- Add your address here -->
+                    <div class="address">
+                        <i class="fa fa-home"></i> Address: 12, Srtington Street, NY
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
+</header>
 
-</main>
+
+{{!-- > "menu" --}}
+
+<div class="content">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+
+                <!-- Slider (Flex Slider -->
+
+                <div class="flexslider">
+                    <ul class="slides">
+                        <!-- Each slide should be enclosed inside li tag. -->
+
+                        <!-- Slide #1 -->
+                        <li>
+                            <!-- Image -->
+                            <img src="img/photos/1.jpg" />
+                            <!-- Caption -->
+                            <div class="flex-caption">
+                                <!-- Title -->
+                                <h3><span>Ericka Title #1</span></h3>
+                                <!-- Para -->
+                                <p>Ut commodo ullamcorper risus nec mattis. Fusce imperdiet ornare dignissim. Donec aliquet convallis tortor, et placerat quam posuere posuere. Morbi tincidunt posuere turpis eu laoreet. </p>
+                            </div>
+                        </li>
+
+
+                        <li>
+                            <img src="img/photos/2.jpg" />
+                            <div class="flex-caption">
+                                <h3><span>Ericka Title #3</span></h3>
+                                <p>Ut commodo ullamcorper risus nec mattis. Fusce imperdiet ornare dignissim. Donec aliquet convallis tortor, et placerat quam posuere posuere. Morbi tincidunt posuere turpis eu laoreet. </p>
+                            </div>
+                        </li>
+
+                        <li>
+                            <img src="img/photos/3.jpg" />
+                            <div class="flex-caption">
+                                <h3><span>Ericka Title #4</span></h3>
+                                <p>Ut commodo ullamcorper risus nec mattis. Fusce imperdiet ornare dignissim. Donec aliquet convallis tortor, et placerat quam posuere posuere. Morbi tincidunt posuere turpis eu laoreet. </p>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+
+                <!-- Slider ends -->
+
+                <!-- CTA starts -->
+
+                <div class="cta">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <!-- First line -->
+                            <p class="cbig">Unser Ziel ist es, mit Ihnen Ihre Urlaubserwartungen zu erarbeiten
+                            und Sie bei der Suche durch das große Angebot der Reiseanbieter zu unterstützen</p>
+                            <!-- Second line -->
+                            <p class="csmall">Ihre Reiseagenten</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- CTA Ends -->
+
+                <!-- Service starts -->
+
+                <div class="services">
+                    <div class="row">
+                        <div class="col-md-4">
+
+                            <!-- Service #1 -->
+                            <div class="service">
+                                <!-- Icon & title. Font Awesome icon used. -->
+                                <h5><span><i class="fa fa-anchor"></i>Kreuzfahrten</span></h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vulputate eros nec odio egestas in dictum nisi vehicula. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis. </p>
+                            </div>
+
+                        </div>
+                        <div class="col-md-4">
+
+                            <!-- Service #2 -->
+                            <div class="service">
+                                <!-- Icon & title. Font Awesome icon used. -->
+                                <h5><span><i class="fa fa-cloud"></i>Themenreisen</span></h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vulputate eros nec odio egestas in dictum nisi vehicula. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis. </p>
+                            </div>
+
+                        </div>
+                        <div class="col-md-4">
+
+                            <!-- Service #3 -->
+                            <div class="service">
+                                <!-- Icon & title. Font Awesome icon used. -->
+                                <h5><span><i class="fa fa-hotel"></i>Hotels</span></h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vulputate eros nec odio egestas in dictum nisi vehicula. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis. </p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Serivce ends -->
+
+                <!-- Recent post starts. Note down the class name before editing. -->
+
+                <div class="rposts">
+                    <h4>Beliebte Reisen und Ziele</h4>
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="rpost1">
+                                <div class="rimg">
+                                    <img src="img/photos/r1.jpg" alt="" class="img-responsive" />
+                                </div>
+                                <!-- Title & Para -->
+                                <div class="rdetails">
+                                    <h5>Lorem ipsum</h5>
+                                    <p>Duis vulputate consectetur malesuada et in dictum nisi vehicula.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="rpost1">
+                                <div class="rimg">
+                                    <img src="img/photos/r2.jpg" alt="" class="img-responsive" />
+                                </div>
+                                <div class="rdetails">
+                                    <h5>Lorem ipsum</h5>
+                                    <p>Duis vulputate consectetur malesuada et netus et in dictum nisi vehicula.</p>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="rpost1">
+                                <div class="rimg">
+                                    <img src="img/photos/r3.jpg" alt="" class="img-responsive" />
+                                </div>
+                                <div class="rdetails">
+                                    <h5>Lorem ipsum</h5>
+                                    <p>Duis vulputate consectetur malesuada et in dictum nisi vehicula.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="rpost1">
+                                <div class="rimg">
+                                    <img src="img/photos/r4.jpg" alt="" class="img-responsive" />
+                                </div>
+                                <div class="rdetails">
+                                    <h5>Lorem ipsum</h5>
+                                    <p>Duis vulputate consectetur malesuada et netus et in dictum nisi vehicula.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Recent post ends -->
+
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--<main  class="container">-->
+
+    <!--<div class="row">-->
+        <!--<div class="col-xs-12 col-sm-6 col-md-3" data-module="tile">-->
+            <!--<div class="col-xs-12 background tile-luxury">-->
+                <!--<div class="tile-maker">-->
+                <!--</div>-->
+            <!--</div>-->
+            <!--<div class="content">lorem ipsum sit amet</div>-->
+        <!--</div>-->
+
+        <!--<div class="col-xs-12 col-sm-6 col-md-3" data-module="tile">-->
+            <!--<div class="col-xs-12 background tile-luxury">-->
+                <!--<div class="tile-maker">-->
+                <!--</div>-->
+            <!--</div>-->
+            <!--<div class="content">lorem ipsum sit amet</div>-->
+        <!--</div>-->
+        <!--<div class="col-xs-12 col-sm-6 col-md-3" data-module="tile">-->
+            <!--<div class="col-xs-12 background tile-luxury">-->
+                <!--<div class="tile-maker">-->
+                <!--</div>-->
+            <!--</div>-->
+            <!--<div class="content">lorem ipsum sit amet</div>-->
+        <!--</div>-->
+        <!--<div class="col-xs-12 col-sm-6 col-md-3" data-module="tile">-->
+            <!--<div class="col-xs-12 background tile-luxury">-->
+                <!--<div class="tile-maker">-->
+                <!--</div>-->
+            <!--</div>-->
+            <!--<div class="content">lorem ipsum sit amet</div>-->
+        <!--</div>-->
+        <!--<div class="col-xs-12 col-sm-6 col-md-3" data-module="tile">-->
+            <!--<div class="col-xs-12 background tile-luxury">-->
+                <!--<div class="tile-maker">-->
+                <!--</div>-->
+            <!--</div>-->
+            <!--<div class="content">lorem ipsum sit amet</div>-->
+        <!--</div>-->
+        <!--<div class="col-xs-12 col-sm-6 col-md-3" data-module="tile">-->
+            <!--<div class="col-xs-12 background tile-luxury">-->
+                <!--<div class="tile-maker">-->
+                <!--</div>-->
+            <!--</div>-->
+            <!--<div class="content">lorem ipsum sit amet</div>-->
+        <!--</div>-->
+
+
+    <!--</div>-->
+
+<!--</main>-->
+
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <!-- Widget 1 -->
+                <div class="widget">
+                    <h4>About Us</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras elementum dolor eget nisi fermentum quis hendrerit magna vestibulum. </p>
+                    <!-- Social Media -->
+                    <div class="social">
+                        <a href="#"><i class="fa fa-twitter twitter"></i></a>
+                        <a href="#"><i class="fa fa-pinterest pinterest"></i></a>
+                        <a href="#"><i class="fa fa-facebook facebook"></i></a>
+                        <a href="#"><i class="fa fa-google-plus google-plus"></i></a>
+                        <a href="#"><i class="fa fa-linkedin linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <!-- widget 2 -->
+                <div class="widget">
+                    <h4>Recent Posts</h4>
+                    <ul>
+                        <li><i class="fa fa-angle-right"></i> <a href="#">Sed eu leo orci, in rhoncus puru</a></li>
+                        <li><i class="fa fa-angle-right"></i> <a href="#">Condimentum gravida metus</a></li>
+                        <li><i class="fa fa-angle-right"></i> <a href="#">Lpsum, in rhoncus purus</a></li>
+                        <li><i class="fa fa-angle-right"></i> <a href="#">Etiam at in rhoncus puru nul</a></li>
+                        <li><i class="fa fa-angle-right"></i> <a href="#">Fusce vel magnais dapibus facilisis</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <!-- Widget 3 -->
+                <div class="widget">
+                    <h4>Categories</h4>
+                    <ul>
+                        <li><i class="fa fa-angle-right"></i> <a href="#">Condimentum</a></li>
+                        <li><i class="fa fa-angle-right"></i> <a href="#">Etiam at</a></li>
+                        <li><i class="fa fa-angle-right"></i> <a href="#">Fusce vel</a></li>
+                        <li><i class="fa fa-angle-right"></i> <a href="#">Vivamus</a></li>
+                        <li><i class="fa fa-angle-right"></i> <a href="#">Pellentesque</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <hr />
+            <div class="col-md-12"><p class="copy pull-left">
+                Copyright &copy; Die Reiseagenten
+            </div>
+        </div>
+    </div>
+</footer>
 
 {{> "page-end"}}

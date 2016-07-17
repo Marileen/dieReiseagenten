@@ -1,0 +1,35 @@
+
+div[data-module="tile"] {
+
+  background-size: cover;
+  background-position: 50% 50%;
+
+  overflow: hidden;
+  padding: 0;
+  outline: 10px solid #fff;
+  margin-bottom: 10px;
+
+  .tile-maker {
+    padding-bottom: 100%;
+  }
+
+  .background {
+
+    overflow: hidden;
+    transform-origin: center center;
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+
+  .tile-luxury {
+    background: url(../assets/fotolia_114913113.jpg) top left no-repeat;
+  }
+
+  .content {
+    position: absolute;
+    bottom:0;
+    right:0;
+    background: rosybrown;
+  }
+}
