@@ -5,7 +5,7 @@ border-top:3px solid #30add1;
 }
 
 .color{
-color:#30add1;
+color:#30add1 !important;
 }
 
 a, a:visited{
