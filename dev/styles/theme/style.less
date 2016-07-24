@@ -155,7 +155,7 @@ header span {
 
 header .list {
   position: relative;
-  width: 230px;
+  width: 250px;
   background: #fff;
   padding: 7px 10px;
   //border: 1px solid #ddd;
@@ -169,6 +169,10 @@ header .list {
 
   .headline {
     font-weight: bold;
+  }
+
+  a {
+    cursor: pointer;
   }
 }
 
@@ -420,8 +424,8 @@ header .list hr {
   width: 40%;
   padding: 10px;
   margin: 0 0 40px 40px;
-  background-color: #222;
-  background: rgba(0, 0, 0, 0.8);
+  //background-color: #222;
+  //background: rgba(0, 0, 0, 0.8);
   position: absolute;
   display: block;
   left: 0;
@@ -429,23 +433,39 @@ header .list hr {
 }
 
 .flex-caption h3 {
-  color: #fff;
-  font-size: 16px;
+  font-family: "PT Sans", Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size:26px;
   padding-bottom: 5px;
+  letter-spacing: 1.5px;
   margin: 0;
   margin-bottom: 3px;
-  line-height: 22px;
+  line-height: 34px;
+
+  color: #ffffff;
+
+  .dark & {
+    color: #333333;
+  }
 }
 
 .flex-caption h3 span {
   padding-bottom: 3px;
-  border-bottom: 1px solid #444;
+  //border-bottom: 1px solid #444;
 }
 
 .flex-caption p {
   margin: 0;
-  line-height: 19px;
-  color: #ddd;
+  letter-spacing: 1px;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: bold;
+
+  color: #ffffff;
+
+  .dark & {
+    color: #333333;
+  }
 }
 
 .flex-direction-nav a {
