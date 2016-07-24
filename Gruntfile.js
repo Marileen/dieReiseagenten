@@ -56,6 +56,16 @@ module.exports = function(grunt) {
                     { expand: true, cwd: 'dev/', src: [ 'assets/**/*' ], dest: 'release/' },
                 ]
             },
+            img: {
+                files: [
+                    { expand: true, cwd: 'dev/', src: [ 'img/**/*' ], dest: 'release/' },
+                ]
+            },
+            fonts: {
+                files: [
+                    { expand: true, cwd: 'dev/', src: [ 'fonts/**/*' ], dest: 'release/' },
+                ]
+            },
             php: {
                 files: [
                     { expand: true, cwd: 'dev/php/', src: [ '*.php'], dest: 'release/' }
