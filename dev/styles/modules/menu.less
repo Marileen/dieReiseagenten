@@ -4,6 +4,8 @@ div[data-component="menu"] {
   z-index: 20;
   position: relative;
 
+  border: 2px solid #000;
+
   ul {
     margin-bottom: 0;
 
@@ -23,6 +25,10 @@ div[data-component="menu"] {
       overflow: hidden;
       position: relative;
       cursor: pointer;
+      
+      &.disabled {
+        display: none;
+      }
 
       .cloud {
 

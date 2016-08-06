@@ -435,7 +435,7 @@ header .list hr {
 .flex-caption h3 {
   font-family: "PT Sans", Arial, Helvetica, sans-serif;
   font-weight: bold;
-  font-size:26px;
+  font-size: 26px;
   padding-bottom: 5px;
   letter-spacing: 1.5px;
   margin: 0;
@@ -533,6 +533,42 @@ header .list hr {
   font-size: 20px;
   margin-top: 3px;
   margin-right: 8px;
+}
+
+.service {
+
+  .rimg {
+    position: relative;
+  }
+
+  .caption {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+
+    p {
+      color: #ffffff;
+      font-family: "PT Sans", Arial, Helvetica, sans-serif;
+      font-size: 24px;
+      letter-spacing: 1.5px;
+      font-weight: bold;
+    }
+
+    &.dark p {
+      color: #333333;
+    }
+
+    &.top-left {
+      top: 80px;
+      left: 30px;
+    }
+
+    &.top-center {
+      top: 80px;
+      left: 58px;
+    }
+  }
+
 }
 
 /* CTA */
@@ -788,7 +824,6 @@ header .list hr {
   background-size: 4px 20px;
   text-align: center;
 }
-
 
 .hero p {
   color: #666;
@@ -1829,6 +1864,10 @@ header .list hr {
   margin-top: 20px;
 }
 
+.about .cta {
+  padding: 30px 30px;
+}
+
 .teams .pic {
   margin-bottom: 5px;
 }
@@ -2182,6 +2221,15 @@ header .list hr {
   padding: 15px;
   border: 1px solid #ddd;
   border-top: 0;
+
+  h5 {
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  p {
+    line-height: 1.5;
+  }
 }
 
 /* Footer */
@@ -2519,4 +2567,16 @@ footer .social a {
     margin-bottom: 8px;
     width: 100%;
   }
+}
+
+.datenschutz {
+  h4 {
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+}
+
+.displaynone {
+  display: none;
 }
