@@ -52,11 +52,23 @@ a:hover, a:active, a:focus {
 
 .form {
   margin: 10px 0px;
+  @media (min-width: @screen-md-min) {
+    padding: 0 30px;
+  }
+
+  textarea {
+    margin-bottom: 15px;
+  }
+
+  .buttons {
+    text-align: center;
+  }
 }
 
 form label {
   font-weight: normal !important;
   color: #9a9a9a;
+  display: block;
 }
 
 .well {
