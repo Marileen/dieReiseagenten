@@ -37,19 +37,21 @@
                                                 ein
                                                 individuell auf Sie zugeschnittenes Angebot erarbeiten.</h5>
                                             <hr/>
-                                            <div class="form row" action="{{page.basePath}}anfrage.php" method="post">
+                                            <div class="form" action="{{page.basePath}}anfrage.php" method="post">
                                                 <!-- Contact form (not working)-->
                                                 <form class="form-horizontal">
+                                                    <div class="row">
                                                     <div class="col-xs-12 col-sm-6">
                                                         <label class="control-label" for="gender">Anrede</label>
-                                                        <div class="">
+                                                        <div class="row">
+                                                            <div class="col-xs-6">
                                                             <i class="select fa fa-sort-desc"></i>
                                                             <select>
                                                                 <option>Bitte wählen</option>
                                                                 <option>Herr</option>
                                                                 <option>Frau</option>
                                                             </select>
-
+                                                            </div>
                                                         </div>
 
                                                         <label class="control-label" for="name">Vorname</label>
@@ -76,10 +78,13 @@
                                                         </div>
                                                         <label class="control-label" for="birth">Geburtsdatum</label>
                                                         <div class="">
-                                                            <input type="text" class="form-control" id="birth">
+                                                            <input type="text" class="col-xs-4" id="birthDay" placeholder="Tag">
+                                                            <input type="text" class="col-xs-4" id="birthMonth" placeholder="Monat">
+                                                            <input type="text" class="col-xs-4" id="birthYear" placeholder="Jahr">
                                                         </div>
                                                     </div>
-
+                                                    </div>
+                                                    <div class="row">
                                                     <div class="col-xs-12 col-sm-6">
                                                         <label class="control-label" for="from">Abflughafen</label>
                                                         <div class="">
@@ -97,10 +102,10 @@
                                                         <div class="">
                                                             <input type="text" class="form-control" id="dateFrom">
                                                         </div>
-                                                        <label class="control-label" for="dateFromLatest">Spätester
+                                                        <label class="control-label" for="dateLatest">Spätester
                                                             Hinflug</label>
                                                         <div class="">
-                                                            <input type="text" class="form-control" id="dateFromLatest">
+                                                            <input type="text" class="form-control" id="dateLatest">
                                                         </div>
                                                     </div>
 
@@ -115,6 +120,7 @@
                                                     <!-- Buttons -->
                                                     <div class="col-xs-12 buttons">
                                                         <button type="submit" class="btn btn-default">Absenden</button>
+                                                    </div>
                                                     </div>
                                                 </form>
                                             </div>
@@ -137,8 +143,16 @@
 
 <script src="{{page.basePath}}js/pikaday.js"></script>
 <script>
-    var picker = new Pikaday({
+    var dateFromPicker = new Pikaday({
         field: document.getElementById('dateFrom'),
+        format: 'D MMM YYYY',
+        firstDay:1,
+        onSelect: function() {
+            console.log(this.getMoment().format('Do MMMM YYYY'));
+        }
+    });
+    var dateLatestPicker = new Pikaday({
+        field: document.getElementById('dateLatest'),
         format: 'D MMM YYYY',
         firstDay:1,
         onSelect: function() {
