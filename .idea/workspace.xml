@@ -2,112 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="040c0141-cafa-42fb-8ac3-36732c207609" name="Default" comment="theme und grundgerüst">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/assets/Kreuzfahrt-Teaser.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/assets/sekretaerin.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/assets/title.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/img/favicon/android-icon-144x144.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/img/favicon/android-icon-192x192.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/img/favicon/android-icon-36x36.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/img/favicon/android-icon-48x48.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/img/favicon/android-icon-72x72.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/img/favicon/android-icon-96x96.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/img/favicon/apple-icon-114x114.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/img/favicon/apple-icon-120x120.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/img/favicon/apple-icon-144x144.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/img/favicon/apple-icon-152x152.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/img/favicon/apple-icon-180x180.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/img/favicon/apple-icon-57x57.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/img/favicon/apple-icon-60x60.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/img/favicon/apple-icon-72x72.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/img/favicon/apple-icon-76x76.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/img/favicon/apple-icon-precomposed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/img/favicon/apple-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/img/favicon/favicon-16x16.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/img/favicon/favicon-32x32.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/img/favicon/favicon-96x96.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/img/favicon/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/img/favicon/ms-icon-144x144.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/img/favicon/ms-icon-150x150.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/img/favicon/ms-icon-310x310.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/img/favicon/ms-icon-70x70.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/theme_unite/inc/fonts/FontAwesome.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/theme_unite/inc/fonts/fontawesome-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/theme_unite/inc/fonts/fontawesome-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/theme_unite/inc/fonts/fontawesome-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/theme_unite/inc/fonts/glyphicons-halflings-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/theme_unite/inc/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/theme_unite/inc/fonts/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/theme_unite/inc/fonts/glyphicons-halflings-regular.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/theme_unite/languages/de_DE.mo" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/theme_unite/languages/fr_FR.mo" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/theme_unite/languages/pt_BR.mo" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/theme_unite/screenshot.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/datenschutz.hbs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/img/favicon/browserconfig.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/img/favicon/manifest.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/impressum.hbs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/index2.hbs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/js/moment.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/js/pikaday.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/styles/modules/pikaday.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/styles/modules/select.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/ueberuns.hbs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/theme_unite/404.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/theme_unite/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/theme_unite/archive.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/theme_unite/comments.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/theme_unite/content-none.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/theme_unite/content-page.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/theme_unite/content-single.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/theme_unite/content.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/theme_unite/footer.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/theme_unite/front-page.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/theme_unite/functions.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/theme_unite/header.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/theme_unite/image.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/theme_unite/inc/class-tgm-plugin-activation.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/theme_unite/inc/css/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/theme_unite/inc/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/theme_unite/inc/css/font-awesome.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/theme_unite/inc/custom-header.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/theme_unite/inc/customizer.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/theme_unite/inc/extras.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/theme_unite/inc/fonts/fontawesome-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/theme_unite/inc/fonts/glyphicons-halflings-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/theme_unite/inc/jetpack.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/theme_unite/inc/js/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/theme_unite/inc/js/customizer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/theme_unite/inc/js/dev/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/theme_unite/inc/js/dev/main.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/theme_unite/inc/js/html5shiv.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/theme_unite/inc/js/main.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/theme_unite/inc/js/main.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/theme_unite/inc/js/respond.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/theme_unite/inc/metaboxes.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/theme_unite/inc/navwalker.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/theme_unite/inc/socialnav.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/theme_unite/inc/template-tags.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/theme_unite/inc/widgets/popular-posts-widget.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/theme_unite/inc/widgets/widget-social.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/theme_unite/inc/wpcom.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/theme_unite/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/theme_unite/languages/de_DE.po" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/theme_unite/languages/fr_FR.po" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/theme_unite/languages/pt_BR.po" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/theme_unite/languages/readme.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/theme_unite/languages/unite.pot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/theme_unite/page-fullwidth.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/theme_unite/page.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/theme_unite/readme.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/theme_unite/search.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/theme_unite/searchform.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/theme_unite/sidebar.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/theme_unite/single.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/theme_unite/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/anfrage.hbs" afterPath="$PROJECT_DIR$/dev/anfrage.hbs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/partials/footer.hbs" afterPath="$PROJECT_DIR$/dev/partials/footer.hbs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/readme.md" afterPath="$PROJECT_DIR$/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/theme_unite/diereiseagenten/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/styles/style.less" afterPath="$PROJECT_DIR$/dev/styles/style.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/styles/theme/style.less" afterPath="$PROJECT_DIR$/dev/styles/theme/style.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/theme_unite/header.php" afterPath="$PROJECT_DIR$/theme_unite/header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/theme_unite/style.css" afterPath="$PROJECT_DIR$/theme_unite/style.css" />
     </list>
     <ignored path="dieReiseagenten.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -128,44 +28,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="select.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dev/styles/modules/select.less">
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/theme_unite/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="readme.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/readme.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="135">
-                <caret line="9" column="55" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/theme_unite/inc/js/dev/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="300">
+              <caret line="37" column="63" selection-start-line="37" selection-start-column="63" selection-end-line="37" selection-end-column="63" />
               <folding />
             </state>
           </provider>
@@ -174,60 +41,51 @@
       <file leaf-file-name="header.hbs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dev/partials/header.hbs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="32" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="8" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/theme_unite/diereiseagenten/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2737">
+              <caret line="18182" column="26" selection-start-line="18182" selection-start-column="26" selection-end-line="18182" selection-end-column="26" />
               <folding>
-                <element signature="n#div#1;n#div#0;n#div#0;n#header#0;n#!!top" expanded="false" />
+                <element signature="e#33791#34008#2" expanded="true" />
+                <element signature="e#34090#34307#2" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="page-head.hbs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dev/partials/page-head.hbs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="410">
-              <caret line="43" column="35" selection-start-line="43" selection-start-column="35" selection-end-line="43" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index2.hbs" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/dev/index2.hbs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="52" column="16" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="page-end.hbs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dev/partials/page-end.hbs">
+      <file leaf-file-name="style.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dev/styles/style.less">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
-              <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+              <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="anfrage.hbs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dev/anfrage.hbs">
+      <file leaf-file-name="style.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dev/styles/theme/style.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="705">
-              <caret line="47" column="76" selection-start-line="47" selection-start-column="70" selection-end-line="47" selection-end-column="76" />
+            <state relative-caret-position="225">
+              <caret line="75" column="22" selection-start-line="75" selection-start-column="22" selection-end-line="75" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="footer.hbs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dev/partials/footer.hbs">
+      <file leaf-file-name="colors.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dev/styles/colors.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="840">
-              <caret line="56" column="22" selection-start-line="56" selection-start-column="22" selection-end-line="56" selection-end-column="22" />
+            <state relative-caret-position="30">
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -268,18 +126,21 @@
         <option value="$PROJECT_DIR$/dev/partials/menu.hbs" />
         <option value="$PROJECT_DIR$/dev/index.hbs" />
         <option value="$PROJECT_DIR$/dev/impressum.hbs" />
-        <option value="$PROJECT_DIR$/dev/styles/theme/style.less" />
         <option value="$PROJECT_DIR$/dev/anfrage.php" />
         <option value="$PROJECT_DIR$/dev/js/moment.min.js" />
         <option value="$PROJECT_DIR$/dev/partials/page-head.hbs" />
         <option value="$PROJECT_DIR$/dev/styles/modules/pikaday.less" />
-        <option value="$PROJECT_DIR$/dev/styles/style.less" />
         <option value="$PROJECT_DIR$/dev/js/pikaday.js" />
         <option value="$PROJECT_DIR$/dev/partials/footer.hbs" />
         <option value="$PROJECT_DIR$/dev/anfrage.hbs" />
         <option value="$PROJECT_DIR$/dev/styles/modules/select.less" />
         <option value="$PROJECT_DIR$/readme.md" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/theme_unite/style.css" />
+        <option value="$PROJECT_DIR$/theme_unite/diereiseagenten/style.css" />
+        <option value="$PROJECT_DIR$/dev/styles/theme/style.less" />
+        <option value="$PROJECT_DIR$/dev/styles/style.less" />
+        <option value="$PROJECT_DIR$/theme_unite/header.php" />
       </list>
     </option>
   </component>
@@ -353,6 +214,20 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="theme_unite" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dieReiseagenten" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dieReiseagenten" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="dev" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -372,50 +247,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="styles" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dieReiseagenten" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dieReiseagenten" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dev" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="styles" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="theme" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dieReiseagenten" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dieReiseagenten" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dev" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="styles" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -433,11 +264,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/theme_unite/diereiseagenten" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/dev/img/favicon" />
       <recent name="$PROJECT_DIR$/dev/assets" />
       <recent name="$PROJECT_DIR$/dev" />
-      <recent name="$PROJECT_DIR$/dev/partials" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/dev/fonts" />
@@ -528,7 +359,7 @@
       <workItem from="1473536616640" duration="8127000" />
       <workItem from="1473773008885" duration="1271000" />
       <workItem from="1473793681737" duration="1688000" />
-      <workItem from="1474191042088" duration="2570000" />
+      <workItem from="1474191042088" duration="4439000" />
     </task>
     <task id="LOCAL-00001" summary="theme und grundgerüst">
       <created>1468787624962</created>
@@ -548,13 +379,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75942000" />
+    <option name="totallyTimeSpent" value="77811000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="716" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24232633" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24232633" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -596,34 +427,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dev/styles/modules/tabbed-accordion.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev/partials/page-end.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev/styles/style.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/readme.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -707,13 +510,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev/styles/colors.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -825,13 +621,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dev/styles/theme/style.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1035">
-          <caret line="69" column="17" selection-start-line="69" selection-start-column="17" selection-end-line="69" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dev/js/moment.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -847,14 +636,6 @@
             <element signature="e#1877#2094#2" expanded="false" />
             <element signature="e#2180#2397#2" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev/styles/style.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -887,16 +668,6 @@
         <state relative-caret-position="420">
           <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev/partials/header.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="32" selection-end-column="0" />
-          <folding>
-            <element signature="n#div#1;n#div#0;n#div#0;n#header#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -958,8 +729,75 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dev/index2.hbs">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/theme_unite/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="870" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="870" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/release/styles/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="17531" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/theme_unite/diereiseagenten/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2737">
+          <caret line="18182" column="26" selection-start-line="18182" selection-start-column="26" selection-end-line="18182" selection-end-column="26" />
+          <folding>
+            <element signature="e#33791#34008#2" expanded="true" />
+            <element signature="e#34090#34307#2" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/styles/colors.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/styles/theme/style.less">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="52" column="16" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
+          <caret line="75" column="22" selection-start-line="75" selection-start-column="22" selection-end-line="75" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/styles/style.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/partials/header.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="8" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/theme_unite/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="37" column="63" selection-start-line="37" selection-start-column="63" selection-end-line="37" selection-end-column="63" />
           <folding />
         </state>
       </provider>

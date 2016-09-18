@@ -21,11 +21,13 @@
 
 <body <?php body_class(); ?>>
 <div id="page" class="hfeed site">
-	<div class="container header-area">
+
+	<header>
+		<div class="container header-area">
 		<?php do_action( 'before' ); ?>
 		<header id="masthead" class="site-header col-sm-12" role="banner">
 
-				<div class="site-branding col-md-6">
+				<div class="site-branding col-md-4 col-sm-4">
 					<?php if( get_header_image() != '' ) : ?>
 
 						<div id="logo">
@@ -47,8 +49,38 @@
 				<?php unite_social_icons(); // Social icons in header ?>
 			</div>
 
+			<div class="col-md-3 col-sm-3 col-sm-offset-3 col-md-offset-3">
+				<div class="list">
+					<!-- Add your phone number here -->
+					<div class="headline">
+						Beratung und Buchung
+					</div>
+					<hr />
+					<div class="phone">
+						schreiben Sie uns, wir rufen Sie zurück:
+					</div>
+					<hr />
+					<!-- Add your email id here -->
+					<div class="email">
+						<i class="fa fa-envelope-o"></i> <a href="mailto:tk@diereiseagenten.de">tk@diereiseagenten.de</a>
+					</div>
+					<hr />
+					<div class="anfrage">
+						<i class="fa fa-edit"></i>
+						<a href="anfrage.html"> Angebotsformular</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-2 col-sm-2 image hidden-xs">
+				<img src="http://diereiseagenten.de/wp-content/uploads/2016/09/sekretaerin.jpg" alt="Kontaktieren Sie uns - wir setzen uns mit Ihnen in Verbindung">
+			</div>
+
+
 		</header><!-- #masthead -->
 	</div>
+	</header>
+
 		<nav class="navbar navbar-default" role="navigation">
 			<div class="container">
 		        <div class="navbar-header">
