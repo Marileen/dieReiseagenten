@@ -26,7 +26,7 @@
 						<p>
 						<ul>
 							<li>
-								<i class="fa fa-angle-right"></i> <a href="{{page.basePath}}ueberuns.html">Mehr über uns</a>
+								<i class="fa fa-angle-right"></i> <a href="/ueber-uns">Mehr über uns</a>
 
 							</li>
 						</ul>
@@ -47,9 +47,9 @@
 						<h4>Informationen</h4>
 						<?php unite_footer_links(); ?>
 						<ul>
-							<li><i class="fa fa-angle-right"></i> <a href="{{page.basePath}}kontakt.html">Kontakt</a></li>
-							<li><i class="fa fa-angle-right"></i> <a href="{{page.basePath}}impressum.html">Impressum</a></li>
-							<li><i class="fa fa-angle-right"></i> <a href="{{page.basePath}}datenschutz.html">Datenschutz</a></li>
+							<li><i class="fa fa-angle-right"></i> <a href="/kontakt">Kontakt</a></li>
+							<li><i class="fa fa-angle-right"></i> <a href="/impressum">Impressum</a></li>
+							<li><i class="fa fa-angle-right"></i> <a href="/datenschutz">Datenschutz</a></li>
 						</ul>
 					</div>
 				</div>
