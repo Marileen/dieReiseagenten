@@ -83,7 +83,8 @@ module.exports = function(grunt) {
                     sourceMap: true
                 },
                 files: {
-                    'theme_unite/diereiseagenten/style.css': 'dev/styles/style.less'
+                    'theme_unite/diereiseagenten/style.css': 'dev/styles/style.less',
+                    'release/styles/style.css': 'dev/styles/style.old.less'
                 }
             }
         },

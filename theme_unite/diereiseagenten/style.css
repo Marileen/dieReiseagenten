@@ -15253,13 +15253,29 @@ img.tp-slider-alternative-image {
   }
 }
 /* Fonts */
+html,
+body {
+  height: 100%;
+}
 body {
   font-family: "PT Sans", Arial, Helvetica, sans-serif;
-  font-size: 13px;
-  line-height: 25px;
+  font-size: 16px;
+  line-height: 1.2em;
   text-shadow: none !important;
-  color: #444;
+  color: #333;
+  border-top: 3px solid #333d98;
   -webkit-font-smoothing: antialiased;
+  background: #1994d2;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #1994d2 1%, #d6c7a4 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #1994d2 1%, #d6c7a4 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #1994d2 1%, #d6c7a4 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1994d2', endColorstr='#d6c7a4', GradientType=0);
+  /* IE6-9 */
+  background-attachment: fixed;
 }
 h1,
 h2,
@@ -15301,11 +15317,6 @@ a:focus {
 }
 .form {
   margin: 10px 0px;
-}
-@media (min-width: 992px) {
-  .form {
-    padding: 0 30px;
-  }
 }
 .form textarea {
   margin-bottom: 15px;
@@ -15401,8 +15412,8 @@ a.btn-inverse:hover {
 }
 /* Header */
 header {
-  padding: 15px 0px 0 0px;
-  background: #f9eedf;
+  background: white;
+  padding: 5px 0px 0 0px;
 }
 header h1 a,
 header h1 a:visited,
@@ -15422,7 +15433,7 @@ header .list {
   padding: 7px 10px;
   font-size: 13px;
   line-height: 20px;
-  color: #000000;
+  color: #333;
 }
 header .list .headline {
   font-weight: bold;
@@ -15435,9 +15446,10 @@ header .list hr {
 }
 /* Navigation */
 .navbar {
-  margin: 0px 0px 15px 0px;
+  margin: 0;
   font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
-  background: #f9eedf;
+  background: #e0d3b5;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
 }
 .navbar > .container {
   max-width: 1000px;
@@ -15495,8 +15507,8 @@ header .list hr {
   left: 0;
   transform: scale(0);
   opacity: 0;
-  transition: all 0.8s ease-in-out;
-  background: url(../../assets/wolke.svg) bottom left no-repeat;
+  transition: all 0.4s ease-in-out;
+  background: url(wolke.svg) bottom left no-repeat;
   -webkit-background-size: 100% 100%;
   background-size: 100% 100% ;
 }
@@ -15545,6 +15557,10 @@ header .list hr {
   border: none !important;
 }
 /* Carousel */
+.carousel {
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2), 0 0 1px white;
+}
 .carousel-control span {
   position: absolute;
   top: 50%;
@@ -15554,16 +15570,25 @@ header .list hr {
   margin-top: -20px;
   font-size: 16px;
   text-align: center;
-  background: #111;
   color: #fff;
-  border: 3px solid #fff;
-  border-radius: 50px;
+}
+.right.carousel-control {
+  background: transparent;
 }
 .right.carousel-control span {
   right: 20px;
 }
+.left.carousel-control {
+  background: transparent;
+}
 .left.carousel-control span {
   left: 20px;
+}
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  display: block;
+  width: 100%;
+  border-radius: 5px;
 }
 /* Social */
 .social {
@@ -15598,16 +15623,8 @@ header .list hr {
 .content,
 #page {
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#30add1+1,edcd8e+100 */
-  background: #30add1;
-  /* Old browsers */
-  background: -moz-linear-gradient(top, #30add1 1%, #edcd8e 100%);
-  /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, #30add1 1%, #edcd8e 100%);
-  /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, #30add1 1%, #edcd8e 100%);
-  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#30add1', endColorstr='#edcd8e', GradientType=0);
-  /* IE6-9 */
+  min-height: 100%;
+  position: relative;
 }
 .content ul {
   list-style-type: none !important;
@@ -15780,12 +15797,11 @@ header .list hr {
 }
 /* CTA */
 .cta {
-  background: #f9f9f9;
-  box-shadow: 0px 0px 1px #ccc;
+  background: #fbf8f1;
   padding: 10px 20px;
-  border: 1px solid #e8e8e8;
   border-radius: 5px;
   margin: 20px 0px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
 }
 .cta p {
   padding: 3px 0px;
@@ -15997,9 +16013,8 @@ header .list hr {
   margin: 0px;
   font-size: 26px;
   line-height: 36px;
-  color: #fff;
+  color: #333;
   background-size: 4px 20px;
-  text-align: center;
 }
 .hero p {
   color: #666;
@@ -17063,14 +17078,11 @@ header .list hr {
   margin-bottom: 0px !important;
 }
 .contact .cwell {
-  padding: 10px 10px;
-  background: #f9f9f9;
-  border: 1px solid #eee;
-  border-radius: 10px;
-  margin-bottom: 15px;
-}
-.contact .cwell h5 {
-  text-align: center;
+  background: #fbf8f1;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin: 20px 0px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
 }
 .contact .csoci {
   text-align: center;
@@ -17189,9 +17201,12 @@ header .list hr {
 /* Footer */
 footer {
   background: #222 url('../img/fback.png') repeat;
-  font-size: 13px;
+  font-size: 14px;
   padding-top: 10px;
   color: #ddd;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 footer hr {
   border-top: 1px solid #333;
@@ -17442,6 +17457,9 @@ footer .social a {
     font-size: 10px;
   }
 }
+.navbar-default .navbar-nav > li > a {
+  color: #333;
+}
 @media (max-width: 991px) {
   .navbar .nav {
     border: 0px !important;
@@ -17471,4 +17489,39 @@ footer .social a {
 .displaynone {
   display: none;
 }
-/*# sourceMappingURL=theme_unite/diereiseagenten/style.css.map */
+.site-content {
+  padding: 15px;
+  padding-bottom: 320px;
+}
+@media (min-width: 768px) {
+  .site-content {
+    padding-bottom: 310px;
+  }
+}
+@media (min-width: 992px) {
+  .site-content {
+    padding-bottom: 220px;
+  }
+}
+.wpcf7-form-control-wrap {
+  margin-bottom: 15px;
+}
+hr {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+}
+.entry-meta {
+  background: transparent;
+  padding: 0;
+  position: static;
+  width: auto;
+  font-size: 14px;
+  border: none;
+}
+.carousel-caption {
+  text-shadow: 0px 1px 5px rgba(0, 0, 0, 0.8);
+}
+.carousel-caption h4 {
+  font-size: 24px;
+  color: #fff;
+}
+/*# sourceMappingURL=style.css.map */

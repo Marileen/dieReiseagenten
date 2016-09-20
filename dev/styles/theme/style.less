@@ -3,13 +3,23 @@
 @import url(http://fonts.googleapis.com/css?family=Oswald:400,700);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600);
 
+html, body {
+  height: 100%;
+}
 body {
   font-family: "PT Sans", Arial, Helvetica, sans-serif;
-  font-size: 13px;
-  line-height: 25px;
+  font-size: 16px;
+  line-height: 1.2em;
   text-shadow: none !important;
-  color: #444;
+  color: #333;
+  border-top: 3px solid #333d98;
   -webkit-font-smoothing: antialiased;
+    background: #1994d2; /* Old browsers */
+    background: -moz-linear-gradient(top, #1994d2 1%, #d6c7a4 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #1994d2 1%, #d6c7a4 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #1994d2 1%, #d6c7a4 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1994d2', endColorstr='#d6c7a4', GradientType=0); /* IE6-9 */
+    background-attachment: fixed;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -53,7 +63,6 @@ a:hover, a:active, a:focus {
 .form {
   margin: 10px 0px;
   @media (min-width: @screen-md-min) {
-    padding: 0 30px;
   }
 
   textarea {
@@ -153,10 +162,8 @@ a.btn-inverse, a.btn-inverse:visited, a.btn-inverse:hover {
 /* Header */
 
 header {
-  padding: 15px 0px 0 0px;
-  //background: url('../img/body-back.png') repeat #feebc5;
-  background: #f9eedf;
-
+    background: white;
+    padding: 5px 0px 0 0px;
 }
 
 header h1 a, header h1 a:visited, header h1 a:hover {
@@ -182,7 +189,7 @@ header .list {
   //border-bottom-right-radius: 10px;
   font-size: 13px;
   line-height: 20px;
-  color: #000000;
+  color: #333;
 
   .headline {
     font-weight: bold;
@@ -200,10 +207,10 @@ header .list hr {
 /* Navigation */
 
 .navbar {
-  margin: 0px 0px 15px 0px;
+  margin: 0;
   font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
-  background: #f9eedf;
-
+  background: #e0d3b5;
+  box-shadow: 0px 5px 10px rgba(0,0,0,0.2);
 }
 
 .navbar > .container {
@@ -275,9 +282,9 @@ header .list hr {
 
         transform: scale(0);
         opacity: 0;
-        transition: all 0.8s ease-in-out;
+        transition: all 0.4s ease-in-out;
 
-        background: url(../../assets/wolke.svg) bottom left no-repeat;
+        background: url(wolke.svg) bottom left no-repeat;
         -webkit-background-size:100% 100%;
         background-size:100% 100% ;
       }
@@ -339,6 +346,10 @@ header .list hr {
 
 /* Carousel */
 
+.carousel {
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2), 0 0 1px white;
+}
 .carousel-control span {
   position: absolute;
   top: 50%;
@@ -348,19 +359,31 @@ header .list hr {
   margin-top: -20px;
   font-size: 16px;
   text-align: center;
-  background: #111;
+  //background: #111;
   color: #fff;
-  border: 3px solid #fff;
-  border-radius: 50px;
+  //border: 3px solid #fff;
+  //border-radius: 50px;
 }
 
-.right.carousel-control span {
-  right: 20px;
+.right.carousel-control {
+  background: transparent;
+  span {
+    right: 20px;
+  }
 }
 
-.left.carousel-control span {
-  left: 20px;
+.left.carousel-control {
+  background: transparent;
+  span {
+    left: 20px;
+  }
 }
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+  display: block;
+  width: 100%;
+  border-radius: 5px;
+}
+
 
 /* Social */
 
@@ -398,11 +421,13 @@ header .list hr {
 
 .content, #page {
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#30add1+1,edcd8e+100 */
-  background: #30add1; /* Old browsers */
-  background: -moz-linear-gradient(top, #30add1 1%, #edcd8e 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, #30add1 1%, #edcd8e 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, #30add1 1%, #edcd8e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#30add1', endColorstr='#edcd8e', GradientType=0); /* IE6-9 */
+  // background: #30add1; /* Old browsers */
+  // background: -moz-linear-gradient(top, #30add1 1%, #edcd8e 100%); /* FF3.6-15 */
+  // background: -webkit-linear-gradient(top, #30add1 1%, #edcd8e 100%); /* Chrome10-25,Safari5.1-6 */
+  // background: linear-gradient(to bottom, #30add1 1%, #edcd8e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  // filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#30add1', endColorstr='#edcd8e', GradientType=0); /* IE6-9 */
+  min-height: 100%;
+  position: relative;
 }
 
 .content ul {
@@ -622,12 +647,11 @@ header .list hr {
 /* CTA */
 
 .cta {
-  background: #f9f9f9;
-  box-shadow: 0px 0px 1px #ccc;
+  background: #fbf8f1;
   padding: 10px 20px;
-  border: 1px solid #e8e8e8;
   border-radius: 5px;
   margin: 20px 0px;
+  box-shadow: 0px 5px 10px rgba(0,0,0,0.2);
 }
 
 .cta p {
@@ -874,9 +898,8 @@ header .list hr {
   margin: 0px;
   font-size: 26px;
   line-height: 36px;
-  color: #fff;
+  color: #333;
   background-size: 4px 20px;
-  text-align: center;
 }
 
 .hero p {
@@ -2144,15 +2167,11 @@ header .list hr {
 }
 
 .contact .cwell {
-  padding: 10px 10px;
-  background: #f9f9f9;
-  border: 1px solid #eee;
-  border-radius: 10px;
-  margin-bottom: 15px;
-
-  h5 {
-    text-align: center;
-  }
+  background: #fbf8f1;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin: 20px 0px;
+  box-shadow: 0px 5px 10px rgba(0,0,0,0.2);
 }
 
 .contact .csoci {
@@ -2302,9 +2321,12 @@ header .list hr {
 
 footer {
   background: #222 url('../img/fback.png') repeat;
-  font-size: 13px;
+  font-size: 14px;
   padding-top: 10px;
   color: #ddd;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
 footer hr {
@@ -2505,7 +2527,6 @@ footer .social a {
   .navbar .nav > li > a {
     border: 0px !important;
   }
-
   .navbar-collapse {
     padding-left: 15px;
   }
@@ -2609,6 +2630,10 @@ footer .social a {
   }
 }
 
+.navbar-default .navbar-nav > li > a {
+  color: #333;
+}
+
 @media (max-width: 991px) {
   .navbar .nav {
     border: 0px !important;
@@ -2645,4 +2670,40 @@ footer .social a {
 
 .displaynone {
   display: none;
+}
+
+.site-content {
+    padding: 15px;
+    padding-bottom: 320px;
+    @media (min-width: 768px) {
+      padding-bottom: 310px;
+    }
+    @media (min-width: 992px) {
+      padding-bottom: 220px;
+    }
+}
+
+.wpcf7-form-control-wrap {
+    margin-bottom: 15px;
+}
+
+hr {
+    border-bottom: 1px solid rgba(0,0,0,0.4);
+}
+
+.entry-meta {
+  background: transparent;
+  padding: 0;
+  position: static;
+  width: auto;
+  font-size: 14px;
+  border: none;
+}
+
+.carousel-caption {
+  text-shadow: 0px 1px 5px rgba(0, 0, 0, 0.8);
+  h4 {
+    font-size: 24px;
+    color: #fff;
+  }
 }
