@@ -47,7 +47,7 @@
 						<h4>Informationen</h4>
 						<?php unite_footer_links(); ?>
 						<ul>
-							<li><i class="fa fa-angle-right"></i> <a href="/kontakt">Kontakt</a></li>
+							<li><i class="fa fa-angle-right"></i> <a href="/anfrage">Kontakt</a></li>
 							<li><i class="fa fa-angle-right"></i> <a href="/impressum">Impressum</a></li>
 							<li><i class="fa fa-angle-right"></i> <a href="/datenschutz">Datenschutz</a></li>
 						</ul>
