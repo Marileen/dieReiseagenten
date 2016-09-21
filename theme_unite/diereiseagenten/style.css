@@ -15752,12 +15752,10 @@ header .list hr {
   margin: 20px 0px;
 }
 .service {
-  background: #fff;
+  background: #fbf8f1;
   padding: 3px 10px;
-  border: 1px solid #e7e7e7;
-  margin-bottom: 10px;
   border-radius: 5px;
-  border-bottom: 3px solid #eee;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
 }
 .service h5 {
   padding: 3px 0px 8px 0px;
