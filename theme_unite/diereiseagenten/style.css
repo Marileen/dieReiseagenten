@@ -15771,13 +15771,13 @@ header .list hr {
 }
 .service .caption {
   position: absolute;
-  height: 100%;
-  width: 100%;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
 }
 .service .caption p {
   color: #ffffff;
   font-family: "PT Sans", Arial, Helvetica, sans-serif;
   font-size: 24px;
+  line-height: 1em;
   letter-spacing: 1.5px;
   font-weight: bold;
 }
@@ -16011,8 +16011,9 @@ header .list hr {
   margin: 0px;
   font-size: 26px;
   line-height: 36px;
-  color: #333;
+  color: #fff;
   background-size: 4px 20px;
+  text-align: center;
 }
 .hero p {
   color: #666;
