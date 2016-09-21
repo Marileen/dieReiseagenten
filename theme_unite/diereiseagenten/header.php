@@ -67,7 +67,7 @@
 					<hr />
 					<div class="anfrage">
 						<i class="fa fa-edit"></i>
-						<a href="anfrage.html"> Angebotsformular</a>
+						<a href="/anfrage"> Angebotsformular</a>
 					</div>
 				</div>
 			</div>

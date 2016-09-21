@@ -2,28 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="040c0141-cafa-42fb-8ac3-36732c207609" name="Default" comment="theme und grundgerüst">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/styles/unite.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/theme_unite/diereiseagenten/archive.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/theme_unite/diereiseagenten/content-page.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/theme_unite/diereiseagenten/content.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/theme_unite/diereiseagenten/footer.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/theme_unite/diereiseagenten/header.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/theme_unite/diereiseagenten/page.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dev/styles/modules/menu.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme_unite/archive.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme_unite/content-page.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme_unite/content.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme_unite/footer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme_unite/header.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme_unite/page.php" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gruntfile.js" afterPath="$PROJECT_DIR$/Gruntfile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/styles/bootstrap/navbar.less" afterPath="$PROJECT_DIR$/dev/styles/bootstrap/navbar.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/styles/style.less" afterPath="$PROJECT_DIR$/dev/styles/style.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/styles/theme/blue.less" afterPath="$PROJECT_DIR$/dev/styles/theme/blue.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/styles/theme/bootstrap.less" afterPath="$PROJECT_DIR$/dev/styles/theme/bootstrap.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/styles/theme/style.less" afterPath="$PROJECT_DIR$/dev/styles/theme/style.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/theme_unite/archive.php" afterPath="$PROJECT_DIR$/theme_unite/archive.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/theme_unite/content-page.php" afterPath="$PROJECT_DIR$/theme_unite/content-page.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/theme_unite/content.php" afterPath="$PROJECT_DIR$/theme_unite/content.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/theme_unite/diereiseagenten/footer.php" afterPath="$PROJECT_DIR$/theme_unite/diereiseagenten/footer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/theme_unite/diereiseagenten/header.php" afterPath="$PROJECT_DIR$/theme_unite/diereiseagenten/header.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/theme_unite/diereiseagenten/style.css" afterPath="$PROJECT_DIR$/theme_unite/diereiseagenten/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/theme_unite/footer.php" afterPath="$PROJECT_DIR$/theme_unite/footer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/theme_unite/header.php" afterPath="$PROJECT_DIR$/theme_unite/header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/theme_unite/page.php" afterPath="$PROJECT_DIR$/theme_unite/page.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/theme_unite/diereiseagenten/style.css.map" afterPath="$PROJECT_DIR$/theme_unite/diereiseagenten/style.css.map" />
     </list>
     <ignored path="dieReiseagenten.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -44,72 +34,84 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="unite.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dev/styles/unite.css">
+      <file leaf-file-name="style.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dev/styles/theme/style.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="10455">
-              <caret line="739" column="1" selection-start-line="739" selection-start-column="1" selection-end-line="739" selection-end-column="1" />
+            <state relative-caret-position="345">
+              <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bootstrap.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dev/styles/theme/bootstrap.less">
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/theme_unite/diereiseagenten/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="3703" column="17" selection-start-line="3703" selection-start-column="17" selection-end-line="3703" selection-end-column="17" />
+            <state relative-caret-position="900">
+              <caret line="66" column="26" selection-start-line="66" selection-start-column="26" selection-end-line="66" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="custom-header.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/theme_unite/inc/custom-header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-395">
+              <caret line="71" column="6" selection-start-line="71" selection-start-column="6" selection-end-line="71" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/theme_unite/diereiseagenten/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="2" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="style.less" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/dev/styles/theme/style.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="299" column="1" selection-start-line="299" selection-start-column="1" selection-end-line="299" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="colors.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dev/styles/colors.less">
+        <entry file="file://$PROJECT_DIR$/dev/styles/style.less">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="10" />
+              <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="navbar.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dev/styles/bootstrap/navbar.less">
+      <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/theme_unite/diereiseagenten/footer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="113">
-              <caret line="393" column="0" selection-start-line="393" selection-start-column="0" selection-end-line="393" selection-end-column="0" />
+            <state relative-caret-position="350">
+              <caret line="49" column="83" selection-start-line="49" selection-start-column="83" selection-end-line="49" selection-end-column="83" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="theme.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dev/styles/bootstrap/theme.less">
+      <file leaf-file-name="impressum.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/release/impressum.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="130" column="0" selection-start-line="130" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
+            <state relative-caret-position="-1200">
+              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="blue.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dev/styles/theme/blue.less">
+      <file leaf-file-name="impressum.hbs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dev/impressum.hbs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="171" column="4" selection-start-line="171" selection-start-column="1" selection-end-line="171" selection-end-column="4" />
-              <folding />
+            <state relative-caret-position="330">
+              <caret line="128" column="22" selection-start-line="128" selection-start-column="22" selection-end-line="128" selection-end-column="22" />
+              <folding>
+                <element signature="e#181#7725#0#HTML" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -124,22 +126,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/theme_unite/functions.php">
+      <file leaf-file-name="datenschutz.hbs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dev/datenschutz.hbs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3245">
-              <caret line="268" column="27" selection-start-line="268" selection-start-column="27" selection-end-line="268" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="front-page.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/theme_unite/front-page.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="180">
+              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+              <folding>
+                <element signature="e#181#4407#0#HTML" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -152,7 +146,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/dev/styles/modules/tabbed-accordion.less" />
         <option value="$PROJECT_DIR$/dev/styles/modules/logo.less" />
         <option value="$PROJECT_DIR$/dev/assets/wolke.svg" />
         <option value="$PROJECT_DIR$/dev/styles/modules/tile.less" />
@@ -195,14 +188,15 @@
         <option value="$PROJECT_DIR$/theme_unite/content.php" />
         <option value="$PROJECT_DIR$/theme_unite/content-page.php" />
         <option value="$PROJECT_DIR$/dev/styles/unite.less" />
-        <option value="$PROJECT_DIR$/theme_unite/diereiseagenten/footer.php" />
         <option value="$PROJECT_DIR$/dev/styles/theme/blue.less" />
         <option value="$PROJECT_DIR$/dev/styles/modules/menu.less" />
-        <option value="$PROJECT_DIR$/dev/styles/style.less" />
         <option value="$PROJECT_DIR$/dev/styles/bootstrap/navbar.less" />
         <option value="$PROJECT_DIR$/dev/styles/unite.css" />
         <option value="$PROJECT_DIR$/dev/styles/theme/bootstrap.less" />
         <option value="$PROJECT_DIR$/dev/styles/theme/style.less" />
+        <option value="$PROJECT_DIR$/theme_unite/diereiseagenten/header.php" />
+        <option value="$PROJECT_DIR$/theme_unite/diereiseagenten/footer.php" />
+        <option value="$PROJECT_DIR$/dev/styles/style.less" />
       </list>
     </option>
   </component>
@@ -219,7 +213,7 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="716" />
+    <option name="height" value="709" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -294,7 +288,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="diereiseagenten" />
+              <option name="myItemId" value="inc" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -308,7 +302,11 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="release" />
+              <option name="myItemId" value="theme_unite" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="diereiseagenten" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -393,7 +391,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../blackbit-projekte/pimcore-diamondgroup-shop" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
@@ -401,17 +399,18 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/theme_unite/diereiseagenten" />
+      <recent name="$PROJECT_DIR$/dev/fonts" />
+      <recent name="$PROJECT_DIR$/dev/styles/theme/fonts" />
+      <recent name="$PROJECT_DIR$/dev/styles" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/theme_unite/diereiseagenten" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/dev/img/favicon" />
       <recent name="$PROJECT_DIR$/dev/assets" />
       <recent name="$PROJECT_DIR$/dev" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/dev/fonts" />
-      <recent name="$PROJECT_DIR$/dev/styles/theme/fonts" />
-      <recent name="$PROJECT_DIR$/dev/styles" />
     </key>
   </component>
   <component name="RunManager">
@@ -498,6 +497,8 @@
       <workItem from="1473773008885" duration="1271000" />
       <workItem from="1473793681737" duration="1688000" />
       <workItem from="1474191042088" duration="16703000" />
+      <workItem from="1474458197873" duration="119000" />
+      <workItem from="1474473803782" duration="2778000" />
     </task>
     <task id="LOCAL-00001" summary="theme und grundgerüst">
       <created>1468787624962</created>
@@ -517,20 +518,20 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90075000" />
+    <option name="totallyTimeSpent" value="92972000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="716" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1280" height="709" extended-state="6" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24232633" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25040388" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32692307" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3241491" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21153846" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.49270666" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -565,49 +566,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dev/partials/menu.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="54" column="36" selection-start-line="54" selection-start-column="36" selection-end-line="54" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev/styles/bootstrap/glyphicons.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-873">
-          <caret line="195" column="32" selection-start-line="195" selection-start-column="32" selection-end-line="195" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev/styles/theme/font-awesome.min.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-570">
-          <caret line="3" column="1657" selection-start-line="3" selection-start-column="1657" selection-end-line="3" selection-end-column="1657" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev/impressum.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="618">
-          <caret line="98" column="86" selection-start-line="98" selection-start-column="86" selection-end-line="98" selection-end-column="86" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev/js/moment.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="473" column="98" selection-start-line="473" selection-start-column="98" selection-end-line="473" selection-end-column="98" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dev/styles/modules/pikaday.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3300">
           <caret line="220" column="1" selection-start-line="220" selection-start-column="1" selection-end-line="220" selection-end-column="1" />
-          <folding>
-            <element signature="e#1877#2094#2" expanded="false" />
-            <element signature="e#2180#2397#2" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -615,7 +577,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3750">
           <caret line="254" column="66" selection-start-line="254" selection-start-column="66" selection-end-line="254" selection-end-column="66" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -623,7 +584,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="705">
           <caret line="47" column="76" selection-start-line="47" selection-start-column="70" selection-end-line="47" selection-end-column="76" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -631,23 +591,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dev/anfrage.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="2" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/anfrage.php" />
     <entry file="file://$PROJECT_DIR$/dev/partials/page-end.hbs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -655,23 +606,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="410">
           <caret line="43" column="35" selection-start-line="43" selection-start-column="35" selection-end-line="43" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="135">
             <caret line="9" column="55" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
-            <folding />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -679,7 +628,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -687,7 +635,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -695,7 +642,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="17531" selection-end-column="52" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -703,7 +649,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="8" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -711,7 +656,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="41" selection-start-line="0" selection-start-column="0" selection-end-line="67" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -731,7 +675,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/theme_unite/header.php">
+    <entry file="file://$PROJECT_DIR$/theme_unite/diereiseagenten/header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="128">
           <caret line="109" column="29" selection-start-line="109" selection-start-column="29" selection-end-line="109" selection-end-column="29" />
@@ -759,23 +703,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/theme_unite/diereiseagenten/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6193">
-          <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gruntfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="89" column="0" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -783,7 +710,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="870" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -791,9 +717,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="113">
           <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="53" selection-end-column="22" />
-          <folding>
-            <element signature="e#223#2561#0#HTML" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -841,15 +764,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="41" column="16" selection-start-line="41" selection-start-column="16" selection-end-line="56" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/theme_unite/diereiseagenten/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="46" column="46" selection-start-line="46" selection-start-column="46" selection-end-line="46" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -857,17 +771,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="163">
           <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-          <folding>
-            <element signature="e#228#2301#0#HTML" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/theme_unite/diereiseagenten/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-435">
-          <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -887,17 +790,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/theme_unite/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/theme_unite/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3245">
+        <state relative-caret-position="3960">
           <caret line="268" column="27" selection-start-line="268" selection-start-column="27" selection-end-line="268" selection-end-column="27" />
           <folding />
         </state>
@@ -905,7 +800,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dev/styles/theme/blue.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
+        <state relative-caret-position="2565">
           <caret line="171" column="4" selection-start-line="171" selection-start-column="1" selection-end-line="171" selection-end-column="4" />
           <folding />
         </state>
@@ -919,33 +814,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dev/styles/modules/menu.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev/styles/style.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/styles/modules/menu.less" />
     <entry file="file://$PROJECT_DIR$/dev/styles/modules/tabbed-accordion.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dev/styles/bootstrap/navbar.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
+        <state relative-caret-position="5895">
           <caret line="393" column="0" selection-start-line="393" selection-start-column="0" selection-end-line="393" selection-end-column="0" />
           <folding />
         </state>
@@ -953,7 +832,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dev/styles/bootstrap/theme.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
+        <state relative-caret-position="1950">
           <caret line="130" column="0" selection-start-line="130" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
           <folding />
         </state>
@@ -961,7 +840,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dev/styles/unite.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10455">
+        <state relative-caret-position="11085">
           <caret line="739" column="1" selection-start-line="739" selection-start-column="1" selection-end-line="739" selection-end-column="1" />
           <folding />
         </state>
@@ -969,16 +848,108 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dev/styles/theme/bootstrap.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
+        <state relative-caret-position="55545">
           <caret line="3703" column="17" selection-start-line="3703" selection-start-column="17" selection-end-line="3703" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Gruntfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="101" column="48" selection-start-line="101" selection-start-column="48" selection-end-line="101" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/theme_unite/diereiseagenten/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="49" column="83" selection-start-line="49" selection-start-column="83" selection-end-line="49" selection-end-column="83" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/release/impressum.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1200">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/impressum.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="128" column="22" selection-start-line="128" selection-start-column="22" selection-end-line="128" selection-end-column="22" />
+          <folding>
+            <element signature="e#181#7725#0#HTML" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/styles/theme/font-awesome.min.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="3" column="1657" selection-start-line="3" selection-start-column="1657" selection-end-line="3" selection-end-column="1657" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/datenschutz.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+          <folding>
+            <element signature="e#181#4407#0#HTML" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/dev/styles/theme/style.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="299" column="1" selection-start-line="299" selection-start-column="1" selection-end-line="299" selection-end-column="1" />
+        <state relative-caret-position="345">
+          <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/theme_unite/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/theme_unite/diereiseagenten/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="66" column="26" selection-start-line="66" selection-start-column="26" selection-end-line="66" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/theme_unite/inc/custom-header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-395">
+          <caret line="71" column="6" selection-start-line="71" selection-start-column="6" selection-end-line="71" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/theme_unite/diereiseagenten/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="2" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/styles/style.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
           <folding />
         </state>
       </provider>
